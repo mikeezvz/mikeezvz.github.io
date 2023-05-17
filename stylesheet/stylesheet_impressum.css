@@ -1,0 +1,56 @@
+.custom-size{
+    height: 50px;
+    max-width: 800px;
+}
+
+.custom-size1{
+    height: 300px;
+    max-width: 1000px;
+}
+
+h1{
+  font-weight: bold;
+}
+
+header {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #d2b48c;
+    padding: 20px;
+  }
+
+nav {
+    width: 200px;
+    background-color: #d2b48c;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+  }
+
+  li a {
+    color: black;
+  }
+
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #d2b48c;
+    text-align: right;
+    margin-right: 200px;
+    padding: 20px;
+    height: 70px;
+  }
+
+  footer a{
+    color: black;
+  }
+
+  .footer-links{
+    margin-top: 8px;
+  }

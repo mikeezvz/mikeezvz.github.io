@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  h1{
+    font-weight: bold;
+  }
+
+  header {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #d2b48c;
+    padding: 20px;
+  }
+  #content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 45px;
+    padding: 20px;
+  }
+  #textblock {
+    flex: 1;
+    background-color: bisque;
+    padding: 20px;
+  }
+  #image {
+    flex: 1 0 300px;
+    margin-left: 70px;
+    width: 100%;
+    max-width: 60%;
+    height: auto;
+  }
+
+  #klapperschlange_image{
+    width: 520px;
+  }
+
+  nav {
+    width: 200px;
+    background-color: #d2b48c;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+  }
+
+  li a {
+    color: black;
+  }
+
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #d2b48c;
+    text-align: right;
+    margin-right: 200px;
+    padding: 20px;
+    height: 70px;
+  }
+
+  footer a{
+    color: black;
+  }
+
+  .footer-links{
+    margin-top: 8px;
+  }
