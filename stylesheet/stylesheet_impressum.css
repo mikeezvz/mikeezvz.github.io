@@ -35,6 +35,12 @@ nav {
     color: black;
   }
 
+  a:hover {
+    color: blue;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+
   footer{
     position: fixed;
     left: 0;
